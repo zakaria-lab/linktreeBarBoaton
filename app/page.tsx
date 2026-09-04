@@ -23,7 +23,7 @@ const copy = {
     reserve: 'Reserve your table', book: 'Book an evening at Boston', bookDetail: 'Tables · Cocktails · Good company',
     menu: 'Explore the menu', pours: 'Signature pours & bites', poursDetail: 'A menu designed for lingering',
     follow: 'Follow the atmosphere', followDetail: 'Behind the bar · Torino', find: 'Find your way here',
-    location: 'Via Boston, Torino', locationDetail: 'Open tonight · 18:00 — late',
+    location: 'Via Boston, Torino', locationDetail: 'LUN–GIO · 16:00 — 00:00 // VEN–SAB · 16:00 — 02:00',
     tagline: 'Bar · Bites · Belonging', title: <>Good nights<br /><em>begin here.</em></>,
     intro: 'An intimate bar in the heart of Torino. Come for one perfect drink, stay for the story.',
     since: 'Torino · Since 2017', footer: 'Make it a Boston night', share: 'Share the feeling', copied: 'Link copied',
@@ -33,7 +33,7 @@ const copy = {
     reserve: 'Prenota il tuo tavolo', book: 'Vivi una serata al Boston', bookDetail: 'Tavoli · Cocktail · Buona compagnia',
     menu: 'Scopri il menu', pours: 'Cocktail d’autore & assaggi', poursDetail: 'Un menu fatto per restare',
     follow: 'Segui l’atmosfera', followDetail: 'Dietro al bancone · Torino', find: 'Come trovarci',
-    location: 'Via Boston, Torino', locationDetail: 'Aperti stasera · 18:00 — tardi',
+    location: 'Via Boston, Torino', locationDetail: 'LUN–GIO · 16:00 — 00:00 // VEN–SAB · 16:00 — 02:00',
     tagline: 'Bar · Assaggi · Appartenenza', title: <>Le belle serate<br /><em>iniziano qui.</em></>,
     intro: 'Un bar intimo nel cuore di Torino. Vieni per un drink perfetto, resta per la storia.',
     since: 'Torino · Dal 2017', footer: 'Vivi una serata Boston', share: 'Condividi', copied: 'Link copiato',
@@ -49,7 +49,7 @@ export default function Page() {
   const links = [
     { eyebrow: t.reserve, title: t.book, detail: t.bookDetail, icon: CalendarDays, href: 'https://wa.me/393898546052' },
     { eyebrow: t.menu, title: t.pours, detail: t.poursDetail, icon: Utensils, href: 'https://boston-bar-italie.vercel.app/' },
-    { eyebrow: t.follow, title: '@bostonbar1', detail: t.followDetail, icon: Camera, href: 'https://www.instagram.com/bostonbartorino?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==' },
+    { eyebrow: t.follow, title: '@bostonbartorino', detail: t.followDetail, icon: Camera, href: 'https://www.instagram.com/bostonbartorino?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==' },
     { eyebrow: t.find, title: t.location, detail: t.locationDetail, icon: MapPin, href: 'https://www.google.com/maps/place/Boston/data=!4m2!3m1!1s0x0:0x192be07fc7383638?sa=X&ved=1t:2428&ictx=111' },
   ]
 
