@@ -49,7 +49,7 @@ export default function Page() {
   const links = [
     { eyebrow: t.reserve, title: t.book, detail: t.bookDetail, icon: CalendarDays, href: 'https://wa.me/393898546052' },
     { eyebrow: t.menu, title: t.pours, detail: t.poursDetail, icon: Utensils, href: 'https://boston-bar-italie.vercel.app/' },
-    { eyebrow: t.follow, title: '@bostonbar1', detail: t.followDetail, icon: Camera, href: 'https://www.instagram.com/bostonbar1?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==' },
+    { eyebrow: t.follow, title: '@bostonbar1', detail: t.followDetail, icon: Camera, href: 'https://www.instagram.com/bostonbartorino?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==' },
     { eyebrow: t.find, title: t.location, detail: t.locationDetail, icon: MapPin, href: 'https://www.google.com/maps/place/Boston/data=!4m2!3m1!1s0x0:0x192be07fc7383638?sa=X&ved=1t:2428&ictx=111' },
   ]
 
